@@ -1,0 +1,9 @@
+CMakeCache.txt
+CMakeFiles
+Makefile
+*.a
+*.o
+numlib_tests
+cmake_install.cmake
+CTestTestfile.cmake
+DartConfiguration.tcl
