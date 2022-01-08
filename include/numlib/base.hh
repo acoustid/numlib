@@ -38,4 +38,7 @@ T &Vector(T &v) { return v; }
 template<typename T>
 const T &Vector(const T &v) { return v; }
 
+template<typename T>
+std::vector<T> Vector(std::initializer_list<T> v) { return std::vector<T>(v); }
+
 } // namespace numlib
